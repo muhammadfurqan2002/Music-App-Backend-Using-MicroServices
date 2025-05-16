@@ -1,0 +1,28 @@
+# Node modules for root and services
+node_modules/
+user-service/node_modules/
+admin-service/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+user-service/.env
+admin-service/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Optional build folders (if applicable)
+dist/
+user-service/dist/
+admin-service/dist/
